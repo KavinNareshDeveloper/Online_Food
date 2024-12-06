@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const axiosClient = axios.create({
-  baseURL : process.env.REACT_APP_API_URL,
+  baseURL :'https://online-food-server-beta.vercel.app/',
   headers:{
     'Accept': 'application/json',
     'Content-Type': 'application/json',
